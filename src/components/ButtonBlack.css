@@ -1,0 +1,25 @@
+.button-black {
+    background-color: #23272A;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 28px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    width: 350px;
+    /* Matches Discord's button width */
+}
+.button-black:hover {
+    background-color: #2C2F33;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .button-black {
+        width: 50%;
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+}

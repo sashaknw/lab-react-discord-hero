@@ -1,0 +1,26 @@
+.button-white {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 28px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    max-width: 250px;
+  
+}
+
+.button-white:hover {
+    color: #404EED;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .button-white {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+}
